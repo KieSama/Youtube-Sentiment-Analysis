@@ -11,6 +11,7 @@
     "activeTab",
     "scripting",
     "http://localhost/*",
+    "http://ec2-18-212-80-49.compute-1.amazonaws.com:8080/*",
     "https://www.googleapis.com/*"
   ]
 }
