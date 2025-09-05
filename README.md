@@ -14,8 +14,8 @@ The project involves **data preprocessing, model training, hyperparameter tuning
 - ✅ Model training with multiple algorithms:
   - RandomForest → 64% accuracy  
   - XGBoost + Optuna (hyperparameter tuning) → 75% accuracy  
-  - LightGBM (with trigrams) → **81% accuracy**  
-  
+  - LightGBM (with trigrams) → **87% accuracy**  
+
 ## 📊 Model Performance
 
 | Class         | Precision | Recall | F1-Score | Support |
