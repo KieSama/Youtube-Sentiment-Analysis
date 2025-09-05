@@ -15,17 +15,18 @@ The project involves **data preprocessing, model training, hyperparameter tuning
   - RandomForest → 64% accuracy  
   - XGBoost + Optuna (hyperparameter tuning) → 75% accuracy  
   - LightGBM (with trigrams) → **81% accuracy**  
-- ✅ Final model performance:
+  
+## 📊 Model Performance
 
-            precision    recall  f1-score   support
+| Class         | Precision | Recall | F1-Score | Support |
+|---------------|-----------|--------|----------|---------|
+| Negative (-1) | 0.79      | 0.78   | 0.79     | 1647    |
+| Neutral (0)   | 0.86      | 0.95   | 0.91     | 2510    |
+| Positive (1)  | 0.91      | 0.84   | 0.88     | 3176    |
+| **Accuracy**  |           |        | **0.87** | **7333**|
+| **Macro Avg** | 0.86      | 0.86   | 0.86     | 7333    |
+| **Weighted Avg** | 0.87   | 0.87   | 0.87     | 7333    |
 
-  Negative (-1)   0.79      0.78      0.79      1647
-  Neutral  (0)   0.86      0.95      0.91      2510
-  Positive (1)   0.91      0.84      0.88      3176
-
-  Accuracy                           0.87      7333
-  Macro Avg        0.86      0.86      0.86      7333
-  Weighted Avg     0.87      0.87      0.87      7333
 
 
 - ✅ Experiment tracking with **MLflow**  
